@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>图片切换</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 class="centered-title">edg牛逼</h1>
+    <div class="container">
+        <div class="image-container">
+            <button class="darken-button" onclick="darkenImage()">变暗</button>
+            <img id="largeImage" class="large-image" src="thumb1.jpg" alt="大图片">
+        </div>
+        <div>
+            <img class="thumbnail" src="thumb1.jpg" alt="小图片1" onclick="changeImage('thumb1.jpg')">
+            <img class="thumbnail" src="thumb2.jpg" alt="小图片2" onclick="changeImage('thumb2.jpg')">
+            <img class="thumbnail" src="thumb3.jpg" alt="小图片3" onclick="changeImage('thumb3.jpg')">
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>

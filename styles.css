@@ -1,0 +1,36 @@
+.centered-title {
+    text-align: center;
+}
+
+.container {
+    text-align: center;
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.large-image {
+    width: 80%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.darken-button {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding: 5px 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.thumbnail {
+    width: 100px;
+    height: auto;
+    margin: 5px;
+    cursor: pointer;
+}
